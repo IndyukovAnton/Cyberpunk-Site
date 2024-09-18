@@ -54,13 +54,125 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="header__info">
-				<h1 class="header__title">Доступно на всех платформах</h1>
+			<div class="header__info cliping">
+				<h1 class="header__title title">Доступно на всех платформах</h1>
 				<a href="#" class="button button-more">Узнать больше</a>
 			</div>
 		</div>
 	</header>
-	<main class="main"></main>
+	<main class="main">
+		<section class="main__game-info">
+			<div class="main__container container">
+				<h2 class="main__game-info-header title">Найт-Сити изменит тебя навсегда!</h2>
+				<p class="main__game-info-text">
+					<span class='marker'>Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.
+				</p>
+				<div class="main__game-album">
+					<img src="./src/assets/images/offer/1.jpg" alt="game-album" class="main__game-album-img cliping">
+					<img src="./src/assets/images/offer/2.jpg" alt="game-album" class="main__game-album-img cliping">
+					<img src="./src/assets/images/offer/3.jpg" alt="game-album" class="main__game-album-img cliping">
+				</div>
+			</div>
+		</section>
+		<section class="promotion">
+			<div class="promotion__container container">
+				<div class="promotion-top">
+					<img src="./src/assets/icons/promotion-logo.svg" alt="promotion-logo" class="promotion-top__logo">
+					<h2 class="main__promotion-header title">Играй и выигрывай!</h2>
+				</div>
+				<p class="main__promotion-description">
+					Играй в <span class='marker'>Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="marker">Xbox Series X</span> или <span class="marker">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! 😉
+				</p>
+				<div class="main__promotion-body">
+					<form action="#" class="main__promotion-form">
+						<input type="text" placeholder="Ваше имя" class="main__promotion-input" name='name'>
+						<input type="text" placeholder="Ваш e-mail" class="main__promotion-input" name='email'>
+						<div id="dropzone">
+							<input type="file" name="file" class="main__promotion-input-file" id='inputFile'>
+							<div class="screen__info">
+								<p class="screen__info-text">Прикрепить скриншот</p>
+								<div class="screen__info-formats">.png / .jpg / .pdf</div>
+							</div>
+							<img src="#" alt="screen preview" class="preview">
+						</div>
+						<div class="main__promotion-error"></div>
+						<div class="main__promotion-success"></div>
+						<button type='submit' class="button button-submit">Отправить</button>
+						<div class="custom-checkbox-wrapper">
+							<div class="custom-checkbox">
+								<input type="checkbox" name="confirm">
+							</div>
+							Согласен на обработку персональных данных
+						</div>
+					</form>
+					<img src="./src/assets/images/promotion/gifts.png" alt="gifts" class='main__promotion-img'>
+				</div>
+			</div>
+		</section>
+		<section class="collaboration">
+			<div class="collaboration__container container">
+				<div class="collaboration__images">
+					<img src="./src/assets/images/pc.png" alt="hp-monitor">
+					<img src="./src/assets/icons/hpAndLogo.svg" alt="hp and logo">
+				</div>
+				<div class="collaboration__info">
+					<h2 class="collaboration__title title">Полное погружение вместе с HP</h2>
+					<p class="collaboration__text">
+						Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!
+					</p>
+					<ul class="collaboration__list">
+						<li class="collaboration__item">Яркие насыщенные цвета</li>
+						<li class="collaboration__item">Кристальная четкость изображения</li>
+						<li class="collaboration__item">Быстрые движения и плавный геймплей</li>
+					</ul>
+					<button class="button button-collaboration-more">Подробнее</button>
+				</div>
+			</div>
+		</section>
+		<section class="about-buy">
+			<div class="about-buy__container container">
+				<img src="./src/assets/images/cover.jpg" alt="cover game"class='about-buy__cover'>
+				<div class="about-buy__info">
+					<h2 class="about-buy__title title">Купить игру Cyberpunk 2077</h2>
+					<p class="about-buy__text_first about-buy__text"><span class='marker'>В комплект входит:</span></p>
+					<ul class="about-buy__list-buy-items">
+						<li class="about-buy__list-buy-item">
+							Футляр с игровыми дисками
+						</li>
+						<li class="about-buy__list-buy-item">
+							Футляр с кодом для загрузки игры и дисками (pc)
+						</li>
+						<li class="about-buy__list-buy-item">
+							Справочник с информацией об игровом мире
+						</li>
+					</ul>
+					<p class="about-buy__text_second about-buy__text"><span class='marker'>Выберите платформу:</span></p>
+					<ul class="about-buy__list-platforms">
+						<li class="about-buy__list-platform">
+							<a href="#" class="about-buy__list-platform-link">
+								<img src="./src/assets/icons/platforms/PC.svg" alt="pc">
+							</a>
+						</li>
+						<li class="about-buy__list-platform">
+							<a href="#" class="about-buy__list-platform-link">
+								<img src="./src/assets/icons/platforms/xbox-one-3 logo.svg" alt="xbox">
+							</a>
+						</li>
+						<li class="about-buy__list-platform">
+							<a href="#" class="about-buy__list-platform-link">
+								<img src="./src/assets/icons/platforms/stadia logo.svg" alt="stadia">
+							</a>
+						</li>
+						<li class="about-buy__list-platform">
+							<a href="#" class="about-buy__list-platform-link">
+								<img src="./src/assets/icons/platforms/Playstation logo.svg" alt="playstation">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
 	<footer class="footer">
 		<div class="footer__container container">
 			<div class="logos">
@@ -78,5 +190,9 @@
 		</div>
 		<p class="footer__text">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
 	</footer>
+
+	<script src='./src/scripts/index.js' type='module'></script>
+	<script src='./src/scripts/dropFile.js'></script>
+	<script src='./src/scripts/formManager.js'></script>
 </body>
 </html>
